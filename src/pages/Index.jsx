@@ -22,6 +22,24 @@ const Index = () => {
           <Text fontSize="md">Full Stack Developer</Text>
           <Button mt={4} colorScheme="blue">View Profile</Button>
         </Flex>
+        <Flex direction="column" alignItems="center" p={6} bg="white" boxShadow="md" borderRadius="md">
+          <Image borderRadius="full" boxSize="150px" src="https://via.placeholder.com/150?text=Jane+Smith" alt="Jane Smith Profile Image" mb={4} />
+          <Text fontSize="xl" fontWeight="bold">Jane Smith</Text>
+          <Text fontSize="md">Data Scientist</Text>
+          <Button mt={4} colorScheme="blue">View Profile</Button>
+        </Flex>
+        <Flex direction="column" alignItems="center" p={6} bg="white" boxShadow="md" borderRadius="md">
+          <Image borderRadius="full" boxSize="150px" src="https://via.placeholder.com/150?text=Ahmed+Khan" alt="Ahmed Khan Profile Image" mb={4} />
+          <Text fontSize="xl" fontWeight="bold">Ahmed Khan</Text>
+          <Text fontSize="md">Mobile Developer</Text>
+          <Button mt={4} colorScheme="blue">View Profile</Button>
+        </Flex>
+        <Flex direction="column" alignItems="center" p={6} bg="white" boxShadow="md" borderRadius="md">
+          <Image borderRadius="full" boxSize="150px" src="https://via.placeholder.com/150?text=Emily+Zhao" alt="Emily Zhao Profile Image" mb={4} />
+          <Text fontSize="xl" fontWeight="bold">Emily Zhao</Text>
+          <Text fontSize="md">UI/UX Designer</Text>
+          <Button mt={4} colorScheme="blue">View Profile</Button>
+        </Flex>
       </VStack>
     </Box>
   );
